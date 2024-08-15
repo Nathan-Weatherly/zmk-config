@@ -44,8 +44,6 @@
 &trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans    &trans    &trans  &trans     &trans
                                         &trans        &trans        &trans        &trans    &trans  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -63,8 +61,6 @@
 &trans     &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT  &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &trans   &trans   &trans
                              &trans    &trans      &trans     &trans       &trans    &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
